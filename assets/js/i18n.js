@@ -37,8 +37,8 @@ const I18N_DATA = {
     // About Section
     aboutSectionMark: "★ Tentang Saya",
     aboutHeading: "Dedikasi & Ketelitian <span class=\"neo-highlight-navy\">Administrasi</span> & <span class=\"neo-highlight\">Akuntansi</span>",
-    aboutP1: "Lulusan D3 Akuntansi <strong style=\"color:#0F1E3A;\">Politeknik Negeri Samarinda (POLNES)</strong> bergelar Ahli Madya Akuntansi (A.Md.Ak.) dengan IPK 3.47, serta berlatar belakang pendidikan kejuruan Otomatisasi & Tata Kelola Perkantoran di SMKN 20 Samarinda (Nilai 83.43). Memiliki pengalaman magang di PT Bank Pembangunan Daerah Kalimantan Timur dan Kalimantan Utara (Pusat) pada Divisi Pengadaan Barang dan Jasa, serta pengalaman PKL pada Pelayanan Masyarakat di Kantor Kecamatan Sambutan.",
-    aboutP2: "Memiliki kompetensi solid dalam administrasi perkantoran, pengolahan data menggunakan Microsoft Excel & Word, penataan dan pengelolaan dokumen pengadaan, pembukuan/akuntansi, serta korespondensi surat-menyurat. Dikenal memiliki ketelitian tinggi, rasa tanggung jawab, kemampuan beradaptasi yang cepat, serta mampu bekerja secara individu maupun berkolaborasi efektif dalam tim.",
+    aboutP1: "Lulusan D3 Akuntansi <strong style=\"color:#0F1E3A;\">Politeknik Negeri Samarinda (POLNES)</strong> (IPK 3.47) dengan latar belakang Otomatisasi & Tata Kelola Perkantoran SMKN 20 Samarinda. Berpengalaman magang di PT BPD Kaltim Kaltara (Pusat) pada administrasi pengadaan barang dan jasa, serta pelayanan administrasi kependudukan di Kantor Kecamatan Sambutan.",
+    aboutP2: "Terampil dalam pengolahan data spreadsheet (Excel), pembukuan akuntansi, penataan arsip dokumen fisik maupun digital, serta korespondensi perkantoran. Memiliki ketelitian tinggi, rasa tanggung jawab, dan kemampuan adaptasi cepat dalam bekerja mandiri maupun kolaborasi tim.",
     aboutCareerGoalTitle: "🎯 Tujuan Karier",
     aboutCareerGoalDesc: "Mengembangkan karier profesional dan siap berkontribusi pada posisi <strong style=\"color:#0F1E3A;\">Staf Administrasi, Akuntansi, Finance, Procurement/Pengadaan</strong>, maupun posisi operasional terkait lainnya.",
     aboutGpaLabel: "IPK (POLNES)",
@@ -199,8 +199,8 @@ const I18N_DATA = {
     // About Section
     aboutSectionMark: "★ About Me",
     aboutHeading: "Dedication & Accuracy in <span class=\"neo-highlight-navy\">Administration</span> & <span class=\"neo-highlight\">Accounting</span>",
-    aboutP1: "Accounting Diploma graduate from <strong style=\"color:#0F1E3A;\">State Polytechnic of Samarinda (POLNES)</strong> with an Associate Degree in Accounting (A.Md.Ak., GPA 3.47), built upon solid vocational education in Office Automation & Governance at SMKN 20 Samarinda (Score 83.43). Experienced through an internship at PT Bank Pembangunan Daerah Kaltim Kaltara (Procurement Division) and public service fieldwork at Sambutan District Office.",
-    aboutP2: "Proficient in office administration, data entry and processing using Microsoft Excel & Word, procurement document filing and organization, bookkeeping, and professional correspondence. Known for high attention to detail, reliability, rapid adaptability, and effective communication in both independent and team environments.",
+    aboutP1: "Accounting Diploma graduate from <strong style=\"color:#0F1E3A;\">State Polytechnic of Samarinda (POLNES)</strong> (A.Md.Ak., GPA 3.47) with a vocational foundation in Office Automation from SMKN 20 Samarinda. Experienced in banking procurement administration at PT BPD Kaltim Kaltara (Head Office) and public services at Sambutan District Office.",
+    aboutP2: "Skilled in spreadsheet data processing (Excel & Word), financial bookkeeping, physical and digital document archiving, and official correspondence. Brings high accuracy, responsibility, and quick adaptability to both independent work and team collaboration.",
     aboutCareerGoalTitle: "🎯 Career Objective",
     aboutCareerGoalDesc: "Eager to contribute professionally as an <strong style=\"color:#0F1E3A;\">Administrative Staff, Accounting Staff, Finance Staff, or Procurement Support</strong>, supporting smooth organizational workflows.",
     aboutGpaLabel: "GPA",
