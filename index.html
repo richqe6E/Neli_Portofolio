@@ -1349,28 +1349,64 @@
               <strong style="color:#0F1E3A;">Bidang Keahlian:</strong> Akuntansi Keuangan, Pembukuan, Pengolahan Data Transaksi, Pengendalian Dokumen Keuangan, dan Administrasi Perkantoran.
             </p>
 
-            <!-- Foto Wisuda POLNES -->
-            <div class="rounded-xl overflow-hidden border-2 border-neo-black mb-4 cursor-pointer group relative"
-                 style="border:2px solid #0D0D0D; box-shadow:3px 3px 0 #0D0D0D;"
-                 onclick="openLightbox('assets/dokumentasi/pendidikan-polnes/wisuda-polnes.jpg','Prosesi Wisuda POLNES - Penyerahan Ijazah Ahli Madya Akuntansi (A.Md.Ak.) Neli Agustina')"
-                 role="button" tabindex="0"
-                 onkeydown="if(event.key==='Enter')this.click()"
-                 title="Klik untuk memperbesar foto wisuda">
-              <div class="aspect-[16/10] overflow-hidden bg-white">
-                <img src="assets/dokumentasi/pendidikan-polnes/wisuda-polnes.jpg"
-                     alt="Prosesi Wisuda POLNES Neli Agustina - Ahli Madya Akuntansi"
-                     class="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-105"
-                     loading="lazy" />
+            <!-- Dokumen Ijazah & Foto Wisuda POLNES -->
+            <div class="grid grid-cols-2 gap-3 mb-3">
+              <!-- Item 1: Ijazah Resmi -->
+              <div class="rounded-xl overflow-hidden cursor-pointer group relative bg-white"
+                   style="border:2px solid #0D0D0D; box-shadow:3px 3px 0 #0D0D0D;"
+                   onclick="openLightboxGroup([{src:'assets/cert/ijazah-d3-akuntansi-polnes.jpg',cap:'Ijazah Diploma 3 Akuntansi - Politeknik Negeri Samarinda (PISN: 005026624012026100107 · Neli Agustina, A.Md.Ak.)'},{src:'assets/dokumentasi/pendidikan-polnes/wisuda-polnes.jpg',cap:'Prosesi Wisuda POLNES - Penyerahan Ijazah Ahli Madya Akuntansi (A.Md.Ak.) Neli Agustina'}],0)"
+                   role="button" tabindex="0"
+                   onkeydown="if(event.key==='Enter')this.click()"
+                   title="Klik untuk memperbesar ijazah resmi">
+                <div class="aspect-[16/11] overflow-hidden bg-white">
+                  <img src="assets/cert/ijazah-d3-akuntansi-polnes.jpg"
+                       alt="Ijazah D3 Akuntansi POLNES Neli Agustina"
+                       class="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-105"
+                       loading="lazy" />
+                </div>
+                <div class="p-2 bg-white flex items-center justify-between" style="border-top:2px solid #0D0D0D;">
+                  <span class="font-outfit font-black text-xs truncate" style="color:#0F1E3A;" data-i18n="eduIjazahBadge">📜 Ijazah Resmi</span>
+                  <span class="font-outfit font-bold text-[10px] px-1.5 py-0.5 rounded" style="background:#D4FF4F; border:1px solid #0D0D0D;">Lihat ↗</span>
+                </div>
               </div>
-              <div class="p-2.5 bg-white flex items-center justify-between" style="border-top:2px solid #0D0D0D;">
-                <span class="font-outfit font-black text-xs" style="color:#0F1E3A;" data-i18n="eduGradPhotoTitle">🎓 Prosesi Wisuda POLNES</span>
-                <span class="font-outfit font-bold text-[11px] px-2 py-0.5 rounded" style="background:#D4FF4F; border:1px solid #0D0D0D;" data-i18n="eduGradPhotoZoom">Perbesar ↗</span>
+
+              <!-- Item 2: Foto Wisuda POLNES -->
+              <div class="rounded-xl overflow-hidden cursor-pointer group relative bg-white"
+                   style="border:2px solid #0D0D0D; box-shadow:3px 3px 0 #0D0D0D;"
+                   onclick="openLightboxGroup([{src:'assets/dokumentasi/pendidikan-polnes/wisuda-polnes.jpg',cap:'Prosesi Wisuda POLNES - Penyerahan Ijazah Ahli Madya Akuntansi (A.Md.Ak.) Neli Agustina'},{src:'assets/cert/ijazah-d3-akuntansi-polnes.jpg',cap:'Ijazah Diploma 3 Akuntansi - Politeknik Negeri Samarinda (PISN: 005026624012026100107 · Neli Agustina, A.Md.Ak.)'}],0)"
+                   role="button" tabindex="0"
+                   onkeydown="if(event.key==='Enter')this.click()"
+                   title="Klik untuk memperbesar foto wisuda">
+                <div class="aspect-[16/11] overflow-hidden bg-white">
+                  <img src="assets/dokumentasi/pendidikan-polnes/wisuda-polnes.jpg"
+                       alt="Prosesi Wisuda POLNES Neli Agustina - Ahli Madya Akuntansi"
+                       class="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-105"
+                       loading="lazy" />
+                </div>
+                <div class="p-2 bg-white flex items-center justify-between" style="border-top:2px solid #0D0D0D;">
+                  <span class="font-outfit font-black text-xs truncate" style="color:#0F1E3A;" data-i18n="eduWisudaBadge">🎓 Foto Wisuda</span>
+                  <span class="font-outfit font-bold text-[10px] px-1.5 py-0.5 rounded" style="background:#D4FF4F; border:1px solid #0D0D0D;">Lihat ↗</span>
+                </div>
               </div>
+            </div>
+
+            <!-- Tombol Unduh PDF Ijazah & Metadata PISN -->
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+              <a href="assets/docs/Ijazah-D3-Akuntansi-POLNES-Neli-Agustina.pdf" target="_blank" rel="noopener"
+                 class="font-outfit font-black text-xs px-3 py-1.5 rounded-lg btn-press inline-flex items-center gap-1.5"
+                 style="background:#fff; border:2px solid #0D0D0D; box-shadow:2px 2px 0 #0D0D0D;"
+                 data-i18n="eduDownloadIjazah">
+                📄 Unduh Ijazah (PDF)
+              </a>
+              <span class="font-bold text-[11px] px-2 py-0.5 rounded" style="background:#E2F7D8; border:1.5px solid #0D0D0D; color:#0F1E3A;">
+                PISN: 005026624012026100107
+              </span>
             </div>
           </div>
           <div class="flex flex-wrap gap-2 pt-2">
             <span class="neo-tag neo-tag-lime" data-i18n="eduTagGpa">IPK 3.47</span>
-            <span class="neo-tag" data-i18n="eduTagLsp">Kompeten LSP</span>
+            <span class="neo-tag neo-tag-yellow" data-i18n="eduTagPisn">PISN Terverifikasi</span>
+            <span class="neo-tag" data-i18n="eduTagAkreditasi">Akreditasi Baik Sekali</span>
             <span class="neo-tag">POLNES 2026</span>
           </div>
         </div>
@@ -1415,8 +1451,24 @@
     </p>
 
     <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-      <!-- 1. Magang Bankaltimtara -->
+      <!-- 1. Ijazah D3 Akuntansi POLNES -->
       <div class="cert-card reveal reveal-delay-1" role="button" tabindex="0"
+           onclick="openLightboxGroup([{src:'assets/cert/ijazah-d3-akuntansi-polnes.jpg',cap:'Ijazah Diploma 3 Akuntansi - Politeknik Negeri Samarinda (PISN: 005026624012026100107 · Neli Agustina, A.Md.Ak.)'},{src:'assets/dokumentasi/pendidikan-polnes/wisuda-polnes.jpg',cap:'Prosesi Wisuda POLNES - Penyerahan Ijazah Ahli Madya Akuntansi (A.Md.Ak.) Neli Agustina'}],0)"
+           onkeydown="if(event.key==='Enter')this.click()"
+           aria-label="Lihat Ijazah D3 Akuntansi POLNES">
+        <img src="assets/cert/ijazah-d3-akuntansi-polnes.jpg" alt="Ijazah D3 Akuntansi POLNES Neli Agustina" loading="lazy" />
+        <div class="p-4">
+          <div class="flex items-center justify-between mb-2">
+            <span class="neo-tag neo-tag-lime" data-i18n="certTagIjazah">Ijazah Resmi D3</span>
+            <span class="font-outfit font-black text-[10px] px-2 py-0.5 rounded" style="border:1.5px solid #0D0D0D; background:#D4FF4F;">PISN Valid</span>
+          </div>
+          <p class="font-outfit font-black text-sm mt-1" data-i18n="certTitleIjazah">Ijazah D3 Akuntansi - Ahli Madya Akuntansi (A.Md.Ak.)</p>
+          <p class="text-xs font-semibold mt-1" style="color:#7A7060;" data-i18n="certDescIjazah">Politeknik Negeri Samarinda · PISN: 005026624012026100107 · Akreditasi Baik Sekali</p>
+        </div>
+      </div>
+
+      <!-- 2. Magang Bankaltimtara -->
+      <div class="cert-card reveal reveal-delay-2" role="button" tabindex="0"
            onclick="openLightbox('assets/cert/sertifikat-magang-bankaltimtara.jpg','Sertifikat Magang Bankaltimtara - Divisi Pengelolaan Aset Tetap (No. 1650/E-2/BPD-PST/HC/VIII/2025)')"
            onkeydown="if(event.key==='Enter')openLightbox('assets/cert/sertifikat-magang-bankaltimtara.jpg','Sertifikat Magang Bankaltimtara - Divisi Pengelolaan Aset Tetap')"
            aria-label="Lihat sertifikat magang Bankaltimtara">
@@ -1428,8 +1480,8 @@
         </div>
       </div>
 
-      <!-- 2. Digital Marketing BPVP Samarinda -->
-      <div class="cert-card reveal reveal-delay-2" role="button" tabindex="0"
+      <!-- 3. Digital Marketing BPVP Samarinda -->
+      <div class="cert-card reveal reveal-delay-3" role="button" tabindex="0"
            onclick="openLightboxGroup([{src:'assets/cert/sertifikat-digital-marketing-bpvp.jpg',cap:'Sertifikat Pelatihan Digital Marketing Dasar - BPVP Samarinda (Kemnaker RI)'},{src:'assets/cert/sertifikat-digital-marketing-bpvp-unit.jpg',cap:'Daftar Unit Kompetensi Digital Marketing - BPVP Samarinda'},{src:'assets/cert/dokumentasi-pelatihan-bpvp.jpg',cap:'Dokumentasi Bersama Instruktur &amp; Rekan Pelatihan - BPVP Samarinda'}],0)"
            onkeydown="if(event.key==='Enter')this.click()"
            aria-label="Lihat sertifikat pelatihan digital marketing BPVP Samarinda">
@@ -1444,8 +1496,8 @@
         </div>
       </div>
 
-      <!-- 3. TOEFL Prediction UPA Bahasa POLNES -->
-      <div class="cert-card reveal reveal-delay-3" role="button" tabindex="0"
+      <!-- 4. TOEFL Prediction UPA Bahasa POLNES -->
+      <div class="cert-card reveal reveal-delay-1" role="button" tabindex="0"
            onclick="openLightbox('assets/cert/sertifikat-toefl-prediction.jpg','Certificate of Achievement - TOEFL Prediction Test Skor 403 (UPA Bahasa POLNES)')"
            onkeydown="if(event.key==='Enter')openLightbox('assets/cert/sertifikat-toefl-prediction.jpg','Certificate of Achievement - TOEFL Prediction Test')"
            aria-label="Lihat sertifikat TOEFL Prediction">
@@ -1457,8 +1509,8 @@
         </div>
       </div>
 
-      <!-- 4. PRAKERIN SMKN 20 Samarinda di Kecamatan Sambutan -->
-      <div class="cert-card reveal reveal-delay-1" role="button" tabindex="0"
+      <!-- 5. PRAKERIN SMKN 20 Samarinda di Kecamatan Sambutan -->
+      <div class="cert-card reveal reveal-delay-2" role="button" tabindex="0"
            onclick="openLightbox('assets/cert/sertifikat-pkl-kecamatan-sambutan.jpg','Sertifikat Praktik Kerja Industri (PRAKERIN) - Kecamatan Sambutan (Hasil: SANGAT BAIK)')"
            onkeydown="if(event.key==='Enter')openLightbox('assets/cert/sertifikat-pkl-kecamatan-sambutan.jpg','Sertifikat Praktik Kerja Industri Kecamatan Sambutan')"
            aria-label="Lihat sertifikat prakerin Kecamatan Sambutan">
@@ -1470,8 +1522,8 @@
         </div>
       </div>
 
-      <!-- 5. Kunjungan Industri Akuntansi POLNES Balikpapan -->
-      <div class="cert-card reveal reveal-delay-2" role="button" tabindex="0"
+      <!-- 6. Kunjungan Industri Akuntansi POLNES Balikpapan -->
+      <div class="cert-card reveal reveal-delay-3" role="button" tabindex="0"
            onclick="openLightbox('assets/cert/sertifikat-kunjungan-industri-polnes.jpg','Sertifikat Kunjungan Industri Akuntansi POLNES - Balikpapan (Bea Cukai, DJP, Pegadaian)')"
            onkeydown="if(event.key==='Enter')openLightbox('assets/cert/sertifikat-kunjungan-industri-polnes.jpg','Sertifikat Kunjungan Industri Akuntansi POLNES')"
            aria-label="Lihat sertifikat kunjungan industri POLNES">
@@ -1480,19 +1532,6 @@
           <span class="neo-tag neo-tag-navy mb-2" data-i18n="certTagKunjungan">Kunjungan Industri</span>
           <p class="font-outfit font-black text-sm mt-2" data-i18n="certTitleKunjungan">Sertifikat Kunjungan Industri Akuntansi POLNES</p>
           <p class="text-xs font-semibold mt-1" style="color:#7A7060;" data-i18n="certDescKunjungan">Balikpapan (Bea Cukai, DJP, Pegadaian) · Juni 2025</p>
-        </div>
-      </div>
-
-      <!-- 6. LSP Ahli Madya Akuntansi POLNES -->
-      <div class="cert-card reveal reveal-delay-3" role="button" tabindex="0"
-           onclick="openLightbox('assets/cert/sk-lsp-teknisi-akuntansi-madya.jpg','Sertifikasi Kompetensi Ahli Madya Akuntansi - LSP POLNES (Berkas Resmi Menyusul)')"
-           onkeydown="if(event.key==='Enter')openLightbox('assets/cert/sk-lsp-teknisi-akuntansi-madya.jpg','Sertifikasi Kompetensi Ahli Madya Akuntansi')"
-           aria-label="Lihat sertifikasi kompetensi LSP POLNES">
-        <img class="portrait" src="assets/cert/sk-lsp-teknisi-akuntansi-madya.jpg" alt="Sertifikasi Kompetensi LSP POLNES Neli Agustina" loading="lazy" />
-        <div class="p-4">
-          <span class="neo-tag mb-2" data-i18n="certTagLsp">Kompeten LSP</span>
-          <p class="font-outfit font-black text-sm mt-2" data-i18n="certTitleLsp">Sertifikasi Kompetensi Ahli Madya Akuntansi</p>
-          <p class="text-xs font-semibold mt-1" style="color:#7A7060;" data-i18n="certDescLsp">LSP Politeknik Negeri Samarinda · Okt 2026 - Okt 2028 (Menyusul)</p>
         </div>
       </div>
     </div>
