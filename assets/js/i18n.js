@@ -149,6 +149,8 @@ const I18N_DATA = {
     eduThesis: "<strong style=\"color:#0F1E3A;\">Bidang Keahlian:</strong> Akuntansi Keuangan, Pembukuan, Pengolahan Data Transaksi, Pengendalian Dokumen Keuangan, dan Administrasi Perkantoran.",
     eduTagGpa: "IPK 3.47",
     eduTagLsp: "Kompeten LSP",
+    eduGradPhotoTitle: "🎓 Prosesi Wisuda POLNES",
+    eduGradPhotoZoom: "Perbesar ↗",
 
     // Freelance Experience Card -> Pendidikan SMK
     freeTitle: "🏫 Pendidikan Kejuruan",
@@ -356,6 +358,8 @@ const I18N_DATA = {
     eduThesis: "<strong style=\"color:#0F1E3A;\">Study Focus:</strong> Financial Accounting, Bookkeeping Practices, Accounting Cycles, Data Processing, and Financial Document Governance.",
     eduTagGpa: "GPA 3.47",
     eduTagLsp: "Certified LSP POLNES",
+    eduGradPhotoTitle: "🎓 POLNES Commencement Ceremony",
+    eduGradPhotoZoom: "Enlarge ↗",
 
     // Freelance Experience Card -> Vocational Education Card
     freeTitle: "🏫 Vocational Education",
@@ -456,9 +460,7 @@ const GALLERY_CAPTIONS = {
       "Foto Bersama Jajaran Staf Divisi Pengelolaan Aset Tetap Bankaltimtara"
     ],
     "assets/dokumentasi/pendidikan-polnes": [
-      "Kebersamaan Mahasiswa D3 Akuntansi POLNES",
-      "Yudisium Jurusan Akuntansi POLNES (20 Agustus 2026)",
-      "Prosesi Wisuda & Penyerahan Ijazah Ahli Madya Akuntansi (A.Md.Ak.)"
+      "Prosesi Wisuda POLNES - Penyerahan Ijazah Ahli Madya Akuntansi (A.Md.Ak.) Neli Agustina"
     ]
   },
   en: {
@@ -496,9 +498,7 @@ const GALLERY_CAPTIONS = {
       "Group Photo with Bankaltimtara Fixed Assets Management Division Staff"
     ],
     "assets/dokumentasi/pendidikan-polnes": [
-      "Classroom Camraderie: POLNES Diploma in Accounting Students",
-      "Accounting Department Graduation Judiciary Ceremony (Aug 20, 2026)",
-      "Commencement Ceremony & Diploma Conferral (A.Md.Ak. Degree)"
+      "POLNES Commencement Ceremony & Diploma Conferral (A.Md.Ak. Degree) - Neli Agustina"
     ]
   }
 };
