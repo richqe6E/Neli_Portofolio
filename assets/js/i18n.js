@@ -101,14 +101,18 @@ const I18N_DATA = {
     eduGradPhotoTitle: "🎓 Prosesi Wisuda POLNES",
     eduGradPhotoZoom: "Perbesar ↗",
 
-    // Freelance Experience Card -> Pendidikan SMK
-    freeTitle: "🏫 Pendidikan Kejuruan",
-    freeRole: "Otomatisasi & Tata Kelola Perkantoran",
-    freeCompany: "SMKN 20 SAMARINDA",
-    freePeriod: "2020 - 2023 · Nilai Akhir: 83.43",
-    freeB1: "Pengelolaan administrasi perkantoran, tata naskah dinas, dan surat-menyurat.",
-    freeB2: "Tata kelola kearsipan dan penataan dokumen fisik maupun digital.",
-    freeB3: "Komunikasi pelayanan masyarakat, etika profesi, dan disiplin kerja tinggi.",
+    // Pelatihan & Sertifikasi BPVP Samarinda Card
+    freeTitle: "📜 Pelatihan & Sertifikasi",
+    freeRole: "Digital Marketing Dasar",
+    freeCompany: "BPVP SAMARINDA (KEMNAKER RI)",
+    freePeriod: "Agu - Sep 2026 · 40 Jam Pelajaran (JP)",
+    freeDesc: "<strong style=\"color:#0F1E3A;\">Fokus Pelatihan:</strong> Riset pasar & kata kunci, pembuatan konten promosi digital, optimalisasi media sosial bisnis, dan pengelolaan pemasaran online.",
+    freeCertBadge: "📜 Sertifikat Resmi",
+    freePhotoBadge: "📸 Foto Kegiatan",
+    freeDownloadCert: "📄 Unduh Sertifikat (PDF)",
+    freeTagHours: "40 Jam Pelajaran",
+    freeTagKemnaker: "Kemnaker RI",
+    freeTagTopic: "Digital Marketing",
 
     // Certificates Section
     certSectionMark: "🏆 Sertifikat",
@@ -259,14 +263,18 @@ const I18N_DATA = {
     eduGradPhotoTitle: "🎓 POLNES Commencement Ceremony",
     eduGradPhotoZoom: "Enlarge ↗",
 
-    // Freelance Experience Card -> Vocational Education Card
-    freeTitle: "🏫 Vocational Education",
-    freeRole: "Office Automation & Governance",
-    freeCompany: "SMKN 20 Samarinda",
-    freePeriod: "2020 - 2023 · Final Score: 83.43",
-    freeB1: "Office administration management, official business correspondence, and office protocols.",
-    freeB2: "Document archiving, record keeping systems, and office data processing.",
-    freeB3: "Customer service excellence, effective workplace communication, and office ethics.",
+    // Training & Certification BPVP Samarinda Card
+    freeTitle: "📜 Training & Certification",
+    freeRole: "Basic Digital Marketing",
+    freeCompany: "BPVP SAMARINDA (MINISTRY OF MANPOWER RI)",
+    freePeriod: "Aug - Sep 2026 · 40 Hours Training (JP)",
+    freeDesc: "<strong style=\"color:#0F1E3A;\">Training Focus:</strong> Market & keyword research, digital promotional content creation, business social media optimization, and online marketing management.",
+    freeCertBadge: "📜 Official Certificate",
+    freePhotoBadge: "📸 Training Photo",
+    freeDownloadCert: "📄 Download Certificate (PDF)",
+    freeTagHours: "40-Hour Training",
+    freeTagKemnaker: "Kemnaker RI",
+    freeTagTopic: "Digital Marketing",
 
     // Certificates Section
     certSectionMark: "🏆 Certifications",
