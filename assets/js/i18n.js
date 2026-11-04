@@ -450,10 +450,10 @@ const GALLERY_CAPTIONS = {
       "Tampilan Smartphone: Pengaturan Sistem & Backup JSON"
     ],
     "assets/dokumentasi/magang-bankaltimtara": [
-      "Verifikasi & Rekonsiliasi Dokumen Transaksi Harian",
-      "Rapat Koordinasi & Evaluasi di Ruang Meeting",
-      "Pelepasan Magang Bersama Pembimbing & Rekan Kerja Unit Syariah",
-      "Foto Bersama Jajaran Staf & Karyawan Bankaltimtara Syariah"
+      "Aktivitas Kerja Harian & Pengolahan Data Dokumen di Meja Kerja",
+      "Pemeriksaan dan Verifikasi Berkas Bersama Pembimbing Lapangan",
+      "Pelepasan Magang & Kenang-Kenangan Bersama Tim Divisi Pengelolaan Aset Tetap",
+      "Foto Bersama Jajaran Staf Divisi Pengelolaan Aset Tetap Bankaltimtara"
     ],
     "assets/dokumentasi/pendidikan-polnes": [
       "Kebersamaan Mahasiswa D3 Akuntansi POLNES",
@@ -490,10 +490,10 @@ const GALLERY_CAPTIONS = {
       "Smartphone View: System Configurations & JSON Database Backup"
     ],
     "assets/dokumentasi/magang-bankaltimtara": [
-      "Daily Physical Transaction Voucher Verification & Reconciliation",
-      "Coordination & Performance Evaluation Meeting in Boardroom",
-      "Internship Farewell Ceremony with Mentors & Sharia Division Colleagues",
-      "Group Commemorative Photo: Bankaltimtara Sharia Officers & Staff"
+      "Daily Work Activities & Document Data Processing at Workstation",
+      "Document Review and Verification with Field Supervisor",
+      "Internship Farewell & Commemorative Photo with Fixed Assets Management Team",
+      "Group Photo with Bankaltimtara Fixed Assets Management Division Staff"
     ],
     "assets/dokumentasi/pendidikan-polnes": [
       "Classroom Camraderie: POLNES Diploma in Accounting Students",
