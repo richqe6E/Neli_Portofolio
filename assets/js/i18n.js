@@ -7,7 +7,7 @@ const I18N_DATA = {
   id: {
     // Meta & Document
     pageTitle: "Neli Agustina, A.Md.Ak. - Administrasi & Akuntansi",
-    pageDesc: "Portfolio Neli Agustina, A.Md.Ak. - Lulusan D3 Akuntansi Politeknik Negeri Samarinda (POLNES) dengan latar belakang Administrasi Perkantoran SMKN 20 Samarinda. Berpengalaman di Divisi Pengadaan Barang & Jasa PT BPD Kaltim Kaltara dan Pelayanan Masyarakat. Samarinda, Kalimantan Timur.",
+    pageDesc: "Portfolio Neli Agustina, A.Md.Ak. - Lulusan D3 Akuntansi Politeknik Negeri Samarinda (POLNES) dengan latar belakang Administrasi Perkantoran SMKN 20 Samarinda. Berpengalaman di Divisi Pengelolaan Aset Tetap PT BPD Kaltim Kaltara dan Pelayanan Masyarakat. Samarinda, Kalimantan Timur.",
 
     // Navbar & Mobile Menu
     navAbout: "Tentang",
@@ -22,7 +22,7 @@ const I18N_DATA = {
     heroBadge: "Terbuka untuk Peluang Karier",
     heroGreeting: "Halo, Saya",
     heroRole: "Administrasi & Akuntansi",
-    heroBio: "<strong style=\"color:#0F1E3A;\">Ahli Madya Akuntansi (A.Md.Ak.)</strong> lulusan <strong style=\"color:#0F1E3A;\">Politeknik Negeri Samarinda</strong> berpengalaman di bidang administrasi pengadaan perbankan, pengolahan data, pengarsipan, serta pengelolaan dokumen terstruktur.",
+    heroBio: "<strong style=\"color:#0F1E3A;\">Ahli Madya Akuntansi (A.Md.Ak.)</strong> lulusan <strong style=\"color:#0F1E3A;\">Politeknik Negeri Samarinda</strong> berpengalaman di bidang administrasi aset perbankan, pengolahan data, serta pengelolaan dokumen terstruktur.",
     heroContactBtn: "Hubungi Saya",
     heroJobstreetBtn: "WhatsApp: 085822118725",
     heroStatGpaLabel: "IPK POLNES",
@@ -37,10 +37,10 @@ const I18N_DATA = {
     // About Section
     aboutSectionMark: "★ Tentang Saya",
     aboutHeading: "Dedikasi & Ketelitian <span class=\"neo-highlight-navy\">Administrasi</span> & <span class=\"neo-highlight\">Akuntansi</span>",
-    aboutP1: "Lulusan D3 Akuntansi <strong style=\"color:#0F1E3A;\">Politeknik Negeri Samarinda (POLNES)</strong> (IPK 3.47) dengan latar belakang Otomatisasi & Tata Kelola Perkantoran SMKN 20 Samarinda. Berpengalaman magang di PT BPD Kaltim Kaltara (Pusat) pada administrasi pengadaan barang dan jasa, serta pelayanan administrasi kependudukan di Kantor Kecamatan Sambutan.",
+    aboutP1: "Lulusan D3 Akuntansi <strong style=\"color:#0F1E3A;\">Politeknik Negeri Samarinda (POLNES)</strong> (IPK 3.47) dengan latar belakang Otomatisasi & Tata Kelola Perkantoran SMKN 20 Samarinda. Berpengalaman magang di PT BPD Kaltim Kaltara (Pusat) pada Divisi Pengelolaan Aset Tetap, serta pelayanan administrasi kependudukan di Kantor Kecamatan Sambutan.",
     aboutP2: "Terampil dalam pengolahan data spreadsheet (Excel), pembukuan akuntansi, penataan arsip dokumen fisik maupun digital, serta korespondensi perkantoran. Memiliki ketelitian tinggi, rasa tanggung jawab, dan kemampuan adaptasi cepat dalam bekerja mandiri maupun kolaborasi tim.",
     aboutCareerGoalTitle: "🎯 Tujuan Karier",
-    aboutCareerGoalDesc: "Mengembangkan karier profesional dan siap berkontribusi pada posisi <strong style=\"color:#0F1E3A;\">Staf Administrasi, Akuntansi, Finance, Procurement/Pengadaan</strong>, maupun posisi operasional terkait lainnya.",
+    aboutCareerGoalDesc: "Mengembangkan karier profesional dan siap berkontribusi pada posisi <strong style=\"color:#0F1E3A;\">Staf Administrasi, Akuntansi, Finance</strong>, maupun posisi operasional terkait lainnya.",
     aboutGpaLabel: "IPK (POLNES)",
     aboutProjectsLabel: "Pengalaman",
     aboutInterestsTitle: "Bidang Minat & Spesialisasi",
@@ -169,7 +169,7 @@ const I18N_DATA = {
   en: {
     // Meta & Document
     pageTitle: "Neli Agustina, A.Md.Ak. - Administration & Accounting Specialist",
-    pageDesc: "Portfolio of Neli Agustina, A.Md.Ak. - D3 Accounting Graduate from State Polytechnic of Samarinda (POLNES) with vocational foundation in Office Automation from SMKN 20 Samarinda. Experienced in banking procurement division and public administration. Samarinda, East Kalimantan.",
+    pageDesc: "Portfolio of Neli Agustina, A.Md.Ak. - D3 Accounting Graduate from State Polytechnic of Samarinda (POLNES) with vocational foundation in Office Automation from SMKN 20 Samarinda. Experienced in Fixed Assets Management Division at PT BPD Kaltim Kaltara and public administration. Samarinda, East Kalimantan.",
 
     // Navbar & Mobile Menu
     navAbout: "About",
@@ -184,7 +184,7 @@ const I18N_DATA = {
     heroBadge: "Open to Career Opportunities",
     heroGreeting: "Hello, I am",
     heroRole: "Administration & Accounting Specialist",
-    heroBio: "<strong style=\"color:#0F1E3A;\">Associate in Accounting (A.Md.Ak.)</strong> graduate from <strong style=\"color:#0F1E3A;\">State Polytechnic of Samarinda</strong> experienced in banking procurement administration, data processing, filing, and structured office document management.",
+    heroBio: "<strong style=\"color:#0F1E3A;\">Associate in Accounting (A.Md.Ak.)</strong> graduate from <strong style=\"color:#0F1E3A;\">State Polytechnic of Samarinda</strong> experienced in banking administration, data processing, and structured office document management.",
     heroContactBtn: "Get in Touch",
     heroJobstreetBtn: "WhatsApp: 085822118725",
     heroStatGpaLabel: "POLNES GPA",
@@ -199,10 +199,10 @@ const I18N_DATA = {
     // About Section
     aboutSectionMark: "★ About Me",
     aboutHeading: "Dedication & Accuracy in <span class=\"neo-highlight-navy\">Administration</span> & <span class=\"neo-highlight\">Accounting</span>",
-    aboutP1: "Accounting Diploma graduate from <strong style=\"color:#0F1E3A;\">State Polytechnic of Samarinda (POLNES)</strong> (A.Md.Ak., GPA 3.47) with a vocational foundation in Office Automation from SMKN 20 Samarinda. Experienced in banking procurement administration at PT BPD Kaltim Kaltara (Head Office) and public services at Sambutan District Office.",
+    aboutP1: "Accounting Diploma graduate from <strong style=\"color:#0F1E3A;\">State Polytechnic of Samarinda (POLNES)</strong> (A.Md.Ak., GPA 3.47) with a vocational foundation in Office Automation from SMKN 20 Samarinda. Experienced in banking fixed assets administration at PT BPD Kaltim Kaltara (Head Office) and public services at Sambutan District Office.",
     aboutP2: "Skilled in spreadsheet data processing (Excel & Word), financial bookkeeping, physical and digital document archiving, and official correspondence. Brings high accuracy, responsibility, and quick adaptability to both independent work and team collaboration.",
     aboutCareerGoalTitle: "🎯 Career Objective",
-    aboutCareerGoalDesc: "Eager to contribute professionally as an <strong style=\"color:#0F1E3A;\">Administrative Staff, Accounting Staff, Finance Staff, or Procurement Support</strong>, supporting smooth organizational workflows.",
+    aboutCareerGoalDesc: "Eager to contribute professionally as an <strong style=\"color:#0F1E3A;\">Administrative Staff, Accounting Staff, or Finance Staff</strong>, supporting smooth organizational workflows.",
     aboutGpaLabel: "GPA",
     aboutProjectsLabel: "Experience",
     aboutInterestsTitle: "Competencies & Interests",
@@ -317,7 +317,7 @@ const I18N_DATA = {
     contactInfoTitle: "Contact Information",
     contactJobstreetView: "Open WhatsApp",
     contactOpenTitle: "🟢 Open to Career Opportunities",
-    contactOpenDesc: "Seeking positions as <strong style=\"color:#D4FF4F;\">Administration Staff, Accounting Staff, Finance Staff, or Procurement Support</strong>. Dedicated A.Md.Ak. fresh graduate from POLNES ready to contribute!",
+    contactOpenDesc: "Seeking positions as <strong style=\"color:#D4FF4F;\">Administration Staff, Accounting Staff, or Finance Staff</strong>. Dedicated A.Md.Ak. fresh graduate from POLNES ready to contribute!",
 
     // Footer
     footerCopyright: "© 2026 Neli Agustina, A.Md.Ak. · D3 Accounting POLNES · Samarinda, East Kalimantan",
