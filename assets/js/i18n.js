@@ -12,7 +12,6 @@ const I18N_DATA = {
     // Navbar & Mobile Menu
     navAbout: "Tentang",
     navSkills: "Keahlian",
-    navProjects: "Proyek",
     navExperience: "Pengalaman",
     navCertificates: "Sertifikat",
     navContact: "Kontak",
@@ -70,59 +69,6 @@ const I18N_DATA = {
     softSkill5: "Pelayanan Prima (Service Excellence)",
     softSkill6: "Manajemen Waktu",
     softSkill7: "Kerja Sama Tim",
-
-    // Projects Section
-    projectsSectionMark: "📁 Pengalaman Kerja",
-    projectsHeading: "Pengalaman Kerja & <span class=\"neo-highlight\">Implementasi</span>",
-    projectsSubheading: "Pengalaman profesional di lingkungan perbankan dan pelayanan masyarakat pemerintahan.",
-    docGalleryLabel: "📸 Dokumentasi",
-    screenshotPending: "Dokumentasi Menyusul",
-
-    // Project HKI
-    projHkiBadge: "Magang Perbankan",
-    projHkiYear: "Juli - Agustus 2025",
-    projHkiTitle: "PT BPD Kaltim Kaltara (Pusat)",
-    projHkiDesc: "Magang pada Divisi Pengadaan Barang dan Jasa di Bankaltimtara Pusat, Kota Samarinda. Bertanggung jawab dalam administrasi pengadaan barang dan jasa, penginputan dan pengolahan data, pengarsipan, serta penataan dokumen pengadaan sesuai SOP perbankan.",
-    projHkiTag1: "Pengadaan Barang & Jasa",
-    projHkiTag2: "Perbankan",
-    projHkiTag3: "Pengolahan Data",
-    projHkiViewCert: "Lihat Sertifikat Magang →",
-    projHkiDownloadPdf: "Unduh Sertifikat",
-    projHkiCoverTitle: "Magang Bankaltimtara",
-    projHkiCoverSub: "Divisi Pengadaan Barang & Jasa",
-
-    // Project 1 - PKL Kecamatan
-    proj1Badge: "Praktek Kerja Industri (PKL)",
-    proj1Title: "Kantor Kecamatan Sambutan",
-    proj1Subtitle: "Bagian Pelayanan Masyarakat · Samarinda",
-    proj1Desc: "Melaksanakan pelayanan administrasi kepada masyarakat untuk pengurusan dokumen kependudukan (KTP dan Kartu Keluarga), pemeriksaan dan penyiapan berkas, pengelolaan arsip, serta pemberian informasi kebutuhan administrasi warga.",
-    proj1Role: "Praktikan PKL - Pelayanan Masyarakat",
-
-    // Project 2 - Kompetensi
-    proj2Badge: "Uji Kompetensi",
-    proj2Title: "Sertifikasi Kompetensi LSP POLNES",
-    proj2Subtitle: "Ahli Madya Akuntansi · 2026 - 2028",
-    proj2Desc: "Pengakuan kompetensi profesi teknisi akuntansi madya yang diselenggarakan oleh Lembaga Sertifikasi Profesi (LSP) Politeknik Negeri Samarinda.",
-    proj2Role: "Pemegang Sertifikasi Kompetensi",
-
-    // Project 3 - Pelatihan BPVP
-    proj3Badge: "Pelatihan Resmi",
-    proj3Title: "Pelatihan Digital Marketing",
-    proj3Subtitle: "BPVP Samarinda · Sep 2026 - Sep 2028",
-    proj3Desc: "Pengembangan wawasan dan keterampilan pemasaran digital, pengelolaan platform online, dan strategi komunikasi produk di Balai Pelatihan Vokasi dan Produktivitas (BPVP) Samarinda.",
-    proj3Role: "Peserta Pelatihan Terakreditasi",
-    proj3LiveDemo: "Kunjungi BPVP Samarinda →",
-
-    // Project 4 - TOEFL
-    proj4Badge: "Bahasa Inggris",
-    proj4Year: "2026 - 2028",
-    proj4Title: "Sertifikat TOEFL Prediction",
-    proj4Subtitle: "UPA Bahasa - Politeknik Negeri Samarinda",
-    proj4Desc: "Sertifikasi kemampuan pemahaman bahasa Inggris yang diterbitkan oleh Unit Penunjang Akademik (UPA) Bahasa Politeknik Negeri Samarinda.",
-    proj4TagOffline: "Kemampuan Bahasa",
-    proj4TagAverage: "Listening & Reading",
-    proj4TagCashFlow: "Komunikasi",
-    proj4Role: "Peserta Tes Terverifikasi",
 
     // Experience Section
     expSectionMark: "💼 Pengalaman",
@@ -225,7 +171,6 @@ const I18N_DATA = {
     // Navbar & Mobile Menu
     navAbout: "About",
     navSkills: "Skills",
-    navProjects: "Projects",
     navExperience: "Experience",
     navCertificates: "Certificates",
     navContact: "Contact",
@@ -283,59 +228,6 @@ const I18N_DATA = {
     softSkill5: "Service Excellence",
     softSkill6: "Time Management",
     softSkill7: "Team Collaboration",
-
-    // Projects Section
-    projectsSectionMark: "📁 Work Experience",
-    projectsHeading: "Work Experience & <span class=\"neo-highlight\">Implementation</span>",
-    projectsSubheading: "Professional exposure in regional banking operations and public administration services.",
-    docGalleryLabel: "📸 Documentation",
-    screenshotPending: "Documentation Pending",
-
-    // Project HKI
-    projHkiBadge: "Banking Internship",
-    projHkiYear: "Jul - Aug 2025",
-    projHkiTitle: "PT BPD Kaltim Kaltara (Head Office)",
-    projHkiDesc: "Internship at the Procurement of Goods & Services Division at Bankaltimtara Head Office, Samarinda. Assisted procurement administration, data entry and management, physical and digital filing, adhering strictly to banking standard operating procedures.",
-    projHkiTag1: "Procurement",
-    projHkiTag2: "Banking",
-    projHkiTag3: "Data Processing",
-    projHkiViewCert: "View Internship Certificate →",
-    projHkiDownloadPdf: "Download Certificate",
-    projHkiCoverTitle: "Bankaltimtara Internship",
-    projHkiCoverSub: "Procurement of Goods & Services",
-
-    // Project 1 - Kecamatan
-    proj1Badge: "Industrial Fieldwork (PKL)",
-    proj1Title: "Sambutan District Office",
-    proj1Subtitle: "Public Service Section · Samarinda",
-    proj1Desc: "Delivered administrative support to citizens for identification and civil registry documents (KTP & KK), reviewed and prepared application files, managed archive records, and guided community members on administrative requirements.",
-    proj1Role: "Fieldwork Trainee - Public Service",
-
-    // Project 2 - LSP
-    proj2Badge: "Competency Assessment",
-    proj2Title: "LSP POLNES Competency Certification",
-    proj2Subtitle: "Associate Accounting Technician · 2026 - 2028",
-    proj2Desc: "Official professional competency credential awarded by the Professional Certification Body (LSP) of State Polytechnic of Samarinda.",
-    proj2Role: "Certified Accounting Technician",
-
-    // Project 3 - BPVP
-    proj3Badge: "Vocational Training",
-    proj3Title: "Digital Marketing Training",
-    proj3Subtitle: "BPVP Samarinda · Sep 2026 - Sep 2028",
-    proj3Desc: "Vocational training program covering digital marketing strategies, online content handling, and brand communication at BPVP Samarinda.",
-    proj3Role: "Accredited Trainee",
-    proj3LiveDemo: "Visit BPVP Samarinda →",
-
-    // Project 4 - TOEFL
-    proj4Badge: "English Proficiency",
-    proj4Year: "2026 - 2028",
-    proj4Title: "TOEFL Prediction Certificate",
-    proj4Subtitle: "Language Center (UPA) POLNES",
-    proj4Desc: "English language proficiency assessment certificate issued by the Language Center (UPA Bahasa) of State Polytechnic of Samarinda.",
-    proj4TagOffline: "English Proficiency",
-    proj4TagAverage: "Listening & Reading",
-    proj4TagCashFlow: "Communication",
-    proj4Role: "Verified Test Taker",
 
     // Experience Section
     expSectionMark: "💼 Experience",
@@ -434,33 +326,6 @@ const I18N_DATA = {
 // Gallery Captions Dictionary per Folder
 const GALLERY_CAPTIONS = {
   id: {
-    "assets/dokumentasi/proyek-hki-polnes-loa-lepu": [
-      "Sosialisasi & Demo Aplikasi PO-lne-S Mikro di Desa Loa Lepu",
-      "Foto Bersama Pengabdian Masyarakat POLNES & Pelaku UMKM",
-      "Implementasi di Koperasi Merah Putih Desa Loa Lepu"
-    ],
-    "assets/dokumentasi/proyek-sia-vba-sosis-azizah": [
-      "Database Akun & Siklus Akuntansi",
-      "Form Transaksi Penjualan (Kasir VBA)",
-      "Dashboard Keuangan & Grafik Tren Penjualan"
-    ],
-    "assets/dokumentasi/proyek-pos-android": [
-      "Buka Shift Kasir & Modal Kas Awal di Laci",
-      "Operasional Tablet Kasir & Tren Penjualan",
-      "Implementasi Sistem POS di Meja Kasir",
-      "Uji Coba Lapangan & Kepuasan Pengguna"
-    ],
-    "assets/dokumentasi/proyek-sia-yayasan-pkm": [
-      "Tampilan Beranda Website Resmi Yayasan di Smart TV",
-      "Sosialisasi & Pemaparan Sistem oleh Neli Agustina",
-      "Foto Bersama Tim PKM POLNES & Keluarga Besar Yayasan"
-    ],
-    "assets/dokumentasi/proyek-sistem-informasi-logistik": [
-      "Dashboard Desktop: Input Barang Masuk & Keluar",
-      "Modul Pengaturan: Sinkronisasi Multi-Device & Impor CSV",
-      "Tampilan Smartphone: Dashboard Mutasi Barang Risgold",
-      "Tampilan Smartphone: Pengaturan Sistem & Backup JSON"
-    ],
     "assets/dokumentasi/magang-bankaltimtara": [
       "Aktivitas Kerja Harian & Pengolahan Data Dokumen di Meja Kerja",
       "Pemeriksaan dan Verifikasi Berkas Bersama Pembimbing Lapangan",
@@ -472,33 +337,6 @@ const GALLERY_CAPTIONS = {
     ]
   },
   en: {
-    "assets/dokumentasi/proyek-hki-polnes-loa-lepu": [
-      "Socialization & Live Demo of PO-lne-S Micro App in Loa Lepu Village",
-      "Group Photo: POLNES Community Service Team & MSME Entrepreneurs",
-      "Field Implementation at Merah Putih Cooperative, Loa Lepu Village"
-    ],
-    "assets/dokumentasi/proyek-sia-vba-sosis-azizah": [
-      "Chart of Accounts Database & Complete Accounting Cycle",
-      "Sales Transaction Entry Form (VBA POS Cashier)",
-      "Financial Dashboard & Sales Revenue Trend Charts"
-    ],
-    "assets/dokumentasi/proyek-pos-android": [
-      "Cashier Shift Opening & Drawer Starting Cash Setup",
-      "Tablet Cashier Operations & Sales Trend Analytics",
-      "On-Site POS System Implementation at Cashier Counter",
-      "Live Field Testing & End-User Operational Satisfaction"
-    ],
-    "assets/dokumentasi/proyek-sia-yayasan-pkm": [
-      "Foundation Official Website Homepage Displayed on Smart TV",
-      "System Walkthrough & Presentation Delivered by Neli Agustina",
-      "Commemorative Group Photo: POLNES PKM Team & Foundation Board"
-    ],
-    "assets/dokumentasi/proyek-sistem-informasi-logistik": [
-      "Desktop Dashboard: Real-time Inbound & Outbound Goods Entry",
-      "Settings Module: Multi-Device Sync & Bulk CSV Data Import",
-      "Smartphone View: Risgold Inventory Movement & Mutasi Dashboard",
-      "Smartphone View: System Configurations & JSON Database Backup"
-    ],
     "assets/dokumentasi/magang-bankaltimtara": [
       "Daily Work Activities & Document Data Processing at Workstation",
       "Document Review and Verification with Field Supervisor",

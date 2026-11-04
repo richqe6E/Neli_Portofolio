@@ -307,32 +307,6 @@
     }
 
     /* ====================================================
-       PROJECT CARD
-       ==================================================== */
-    .project-card {
-      border: 3px solid #0D0D0D;
-      border-radius: 20px;
-      background: #fff;
-      box-shadow: 6px 6px 0px 0px #0D0D0D;
-      overflow: hidden;
-      transition: all 0.18s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    }
-    .project-card:hover {
-      transform: translate(-4px, -4px);
-      box-shadow: 10px 10px 0px 0px #0D0D0D;
-    }
-    .project-thumb-area {
-      width: 100%;
-      aspect-ratio: 16/9;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-bottom: 3px solid #0D0D0D;
-      position: relative;
-      overflow: hidden;
-    }
-
-    /* ====================================================
        CERT CARD
        ==================================================== */
     .cert-card {
@@ -517,10 +491,6 @@
       font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 0.65rem;
       padding: 2px 8px; border: 2px solid #0D0D0D; border-radius: 999px; background: #D4FF4F;
     }
-    .project-thumb-area img.cover-img {
-      position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
-    }
-
     /* Lightbox navigasi + caption */
     .lb-nav {
       position: absolute; top: 50%; transform: translateY(-50%);
@@ -606,7 +576,6 @@
     <nav class="hidden md:flex items-center gap-7 font-outfit font-extrabold text-sm" style="color:#0D0D0D;">
       <a href="#tentang" class="hover:text-neo-navyMid transition-colors" style="--hover:#1E2F4F;" data-i18n="navAbout">Tentang</a>
       <a href="#keahlian" class="hover:text-neo-navyMid transition-colors" data-i18n="navSkills">Keahlian</a>
-      <a href="#proyek" class="hover:text-neo-navyMid transition-colors" data-i18n="navProjects">Proyek</a>
       <a href="#pengalaman" class="hover:text-neo-navyMid transition-colors" data-i18n="navExperience">Pengalaman</a>
       <a href="#sertifikat" class="hover:text-neo-navyMid transition-colors" data-i18n="navCertificates">Sertifikat</a>
       <a href="#kontak" class="hover:text-neo-navyMid transition-colors" data-i18n="navContact">Kontak</a>
@@ -659,7 +628,6 @@
   </div>
   <a href="#tentang" class="mobile-nav-link" data-i18n="navAbout">Tentang</a>
   <a href="#keahlian" class="mobile-nav-link" data-i18n="navSkills">Keahlian</a>
-  <a href="#proyek" class="mobile-nav-link" data-i18n="navProjects">Proyek</a>
   <a href="#pengalaman" class="mobile-nav-link" data-i18n="navExperience">Pengalaman</a>
   <a href="#sertifikat" class="mobile-nav-link" data-i18n="navCertificates">Sertifikat</a>
   <a href="#kontak" class="mobile-nav-link" data-i18n="navContact">Kontak</a>
@@ -1037,238 +1005,6 @@
           <span class="neo-tag neo-tag-lime" data-i18n="softSkill7">Kerja Tim</span>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- ================== PROYEK ================== -->
-<!--
-  CARA MENAMBAHKAN FOTO DOKUMENTASI / COVER PROYEK
-  ------------------------------------------------
-  Setiap proyek & pengalaman punya folder sendiri di: assets/dokumentasi/<nama-folder>/
-  - Foto dokumentasi : foto-1.jpg, foto-2.jpg, foto-3.jpg, ... (boleh .jpeg / .png / .webp)
-  - Cover / thumbnail: cover.jpg (opsional, menggantikan ikon "Screenshot Menyusul")
-  Jumlah slot diatur lewat atribut data-count, keterangan foto lewat data-captions (dipisah "|").
--->
-<section id="proyek" class="py-20 px-4">
-  <div class="max-w-5xl mx-auto">
-    <div class="flex justify-center mb-4 reveal">
-      <span class="section-mark" data-i18n="projectsSectionMark">📁 Proyek</span>
-    </div>
-    <h2 class="font-outfit font-black text-center mb-4 reveal reveal-delay-1" style="font-size:clamp(1.8rem,3.5vw,2.6rem);" data-i18n="projectsHeading">
-      Pengembangan Sistem &amp; <span class="neo-highlight">Implementasi</span>
-    </h2>
-    <p class="text-center font-semibold mb-12 reveal reveal-delay-2" style="color:#7A7060; max-width:540px; margin:0 auto 48px;" data-i18n="projectsSubheading">
-      Proyek nyata yang menggabungkan keahlian akuntansi dengan pengembangan sistem digital.
-    </p>
-
-    <div class="grid md:grid-cols-2 gap-8">
-
-      <!-- Project HKI (Featured) -->
-      <article class="project-card md:col-span-2 reveal reveal-delay-1">
-        <div class="grid md:grid-cols-5">
-          <div class="project-thumb-area md:col-span-2 md:!border-b-0 md:border-r-[3px] md:border-neo-black"
-               data-cover="assets/dokumentasi/proyek-hki-polnes-loa-lepu"
-               style="background:linear-gradient(135deg,#0F1E3A,#1E2F4F); aspect-ratio:auto; min-height:220px;">
-            <div class="text-center">
-              <div class="text-5xl mb-2">©️</div>
-              <p class="font-outfit font-black text-sm" style="color:#D4FF4F;" data-i18n="projHkiCoverTitle">Hak Cipta Terdaftar</p>
-              <p class="text-xs font-bold mt-1" style="color:#A7B6D0;" data-i18n="projHkiCoverSub">No. Pencatatan 001542654</p>
-            </div>
-            <div class="absolute top-3 left-3 z-10">
-              <span class="neo-tag neo-tag-lime" data-i18n="projHkiBadge">HKI · DJKI</span>
-            </div>
-          </div>
-          <div class="p-6 md:col-span-3">
-            <p class="font-outfit font-black text-xs uppercase tracking-wider mb-1" style="color:#0F1E3A;" data-i18n="projHkiYear">2026 · Program Komputer</p>
-            <h3 class="font-outfit font-black text-xl mb-3" data-i18n="projHkiTitle">Aplikasi PO-lne-S Mikro Loa Lepu</h3>
-            <p class="text-sm font-semibold leading-relaxed mb-4" style="color:#4A4A4A;" data-i18n="projHkiDesc">
-              Program komputer yang resmi tercatat sebagai Ciptaan oleh Direktorat Jenderal Kekayaan Intelektual, Kementerian Hukum RI. Pertama kali diumumkan 6 September 2026 di Kab. Kutai Kartanegara dan dilindungi selama 50 tahun.
-            </p>
-            <div class="flex flex-wrap gap-2 mb-4">
-              <span class="neo-tag neo-tag-yellow">EC002026199600</span>
-              <span class="neo-tag" data-i18n="projHkiTag1">Program Komputer</span>
-              <span class="neo-tag" data-i18n="projHkiTag2">Usaha Mikro</span>
-              <span class="neo-tag" data-i18n="projHkiTag3">Kutai Kartanegara</span>
-            </div>
-            <div class="flex flex-wrap gap-3">
-              <button type="button" class="font-outfit font-black text-xs px-4 py-2 rounded-lg btn-press"
-                      style="background:#D4FF4F; border:2px solid #0D0D0D; box-shadow:3px 3px 0 #0D0D0D;"
-                      onclick="openLightboxGroup([{src:'assets/cert/hki-surat-pencatatan-ciptaan.jpg',cap:'Surat Pencatatan Ciptaan'},{src:'assets/cert/hki-lampiran-pencipta.jpg',cap:'Lampiran Pencipta'}],0)"
-                      data-i18n="projHkiViewCert">
-                Lihat Sertifikat HKI →
-              </button>
-              <a href="assets/docs/HKI-SuratCiptaan-EC002026199600.pdf" target="_blank" rel="noopener"
-                 class="font-outfit font-black text-xs px-4 py-2 rounded-lg btn-press"
-                 style="background:#fff; border:2px solid #0D0D0D; box-shadow:3px 3px 0 #0D0D0D;"
-                 data-i18n="projHkiDownloadPdf">
-                Unduh PDF
-              </a>
-            </div>
-            <div class="doc-gallery-wrap">
-              <div class="doc-gallery-head">
-                <p class="font-outfit font-black text-xs uppercase tracking-wider" style="color:#0F1E3A;" data-i18n="docGalleryLabel">📸 Dokumentasi</p>
-              </div>
-              <div class="doc-gallery" data-folder="assets/dokumentasi/proyek-hki-polnes-loa-lepu" data-count="3"
-                   data-title="PO-lne-S Mikro Loa Lepu"
-                   data-captions="Sosialisasi &amp; Demo Aplikasi PO-lne-S Mikro di Desa Loa Lepu|Foto Bersama Pengabdian Masyarakat POLNES &amp; Pelaku UMKM|Implementasi di Koperasi Merah Putih Desa Loa Lepu"></div>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <!-- Project 1 -->
-      <article class="project-card reveal reveal-delay-1">
-        <div class="project-thumb-area" data-cover="assets/dokumentasi/proyek-sia-vba-sosis-azizah" style="background:linear-gradient(135deg,#C8E8FF,#A7B6D0);">
-          <div class="text-center">
-            <div class="text-5xl mb-2">📊</div>
-            <p class="font-outfit font-black text-sm" style="color:#0F1E3A;" data-i18n="screenshotPending">Screenshot Menyusul</p>
-          </div>
-          <div class="absolute top-3 left-3 z-10">
-            <span class="neo-tag neo-tag-navy" data-i18n="proj1Badge">Tugas Akhir</span>
-          </div>
-        </div>
-        <div class="p-6">
-          <p class="font-outfit font-black text-xs uppercase tracking-wider mb-1" style="color:#0F1E3A;">2026</p>
-          <h3 class="font-outfit font-black text-xl mb-1" data-i18n="proj1Title">SIA Berbasis Excel Macro VBA</h3>
-          <p class="font-semibold text-sm mb-3" style="color:#7A7060;" data-i18n="proj1Subtitle">Studi Kasus: Toko Agen Sosis Azizah</p>
-          <p class="text-sm font-semibold leading-relaxed mb-4" style="color:#4A4A4A;" data-i18n="proj1Desc">
-            Aplikasi akuntansi terotomatisasi pengganti pencatatan manual - modul transaksi penjualan/pembelian, kartu persediaan otomatis, dan laporan keuangan sesuai standar SAK EMKM.
-          </p>
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="neo-tag">Excel Macro VBA</span>
-            <span class="neo-tag">UserForms</span>
-            <span class="neo-tag">SAK EMKM</span>
-            <span class="neo-tag">FIFO</span>
-          </div>
-          <p class="text-xs font-bold" style="color:#A7B6D0;" data-i18n="proj1Role">Perancang Sistem Informasi Akuntansi</p>
-          <div class="doc-gallery-wrap">
-            <div class="doc-gallery-head">
-              <p class="font-outfit font-black text-xs uppercase tracking-wider" style="color:#0F1E3A;" data-i18n="docGalleryLabel">📸 Dokumentasi</p>
-            </div>
-            <div class="doc-gallery" data-folder="assets/dokumentasi/proyek-sia-vba-sosis-azizah" data-count="3"
-                 data-title="SIA Excel VBA - Toko Agen Sosis Azizah"
-                 data-captions="Database Akun &amp; Siklus Akuntansi|Form Transaksi Penjualan (Kasir VBA)|Dashboard Keuangan &amp; Grafik Tren Penjualan"></div>
-          </div>
-        </div>
-      </article>
-
-      <!-- Project 2 -->
-      <article class="project-card reveal reveal-delay-2">
-        <div class="project-thumb-area" data-cover="assets/dokumentasi/proyek-pos-android" style="background:linear-gradient(135deg,#FFE566,#D4FF4F);">
-          <div class="text-center">
-            <div class="text-5xl mb-2">🛒</div>
-            <p class="font-outfit font-black text-sm" style="color:#4A4A4A;" data-i18n="screenshotPending">Screenshot Menyusul</p>
-          </div>
-          <div class="absolute top-3 left-3 z-10">
-            <span class="neo-tag neo-tag-lime" data-i18n="proj2Badge">Freelance</span>
-          </div>
-        </div>
-        <div class="p-6">
-          <p class="font-outfit font-black text-xs uppercase tracking-wider mb-1" style="color:#0F1E3A;">2026</p>
-          <h3 class="font-outfit font-black text-xl mb-1" data-i18n="proj2Title">Aplikasi POS &amp; Pelaporan Keuangan</h3>
-          <p class="font-semibold text-sm mb-3" style="color:#7A7060;" data-i18n="proj2Subtitle">Point of Sale Android · Offline-first</p>
-          <p class="text-sm font-semibold leading-relaxed mb-4" style="color:#4A4A4A;" data-i18n="proj2Desc">
-            Aplikasi kasir untuk ritel dengan modul Transaksi Kasir, Manajemen Produk &amp; Stok, Buku Kas, Kontrol Utang/Piutang, serta Laporan Laba Rugi, Laporan Transaksi &amp; Laporan Persediaan otomatis berstandar SAK EMKM.
-          </p>
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="neo-tag">Android</span>
-            <span class="neo-tag">Offline-first</span>
-            <span class="neo-tag">SAK EMKM</span>
-            <span class="neo-tag">Utang/Piutang</span>
-          </div>
-          <p class="text-xs font-bold" style="color:#A7B6D0;" data-i18n="proj2Role">System Developer &amp; Accounting Logic Designer</p>
-          <div class="doc-gallery-wrap">
-            <div class="doc-gallery-head">
-              <p class="font-outfit font-black text-xs uppercase tracking-wider" style="color:#0F1E3A;" data-i18n="docGalleryLabel">📸 Dokumentasi</p>
-            </div>
-            <div class="doc-gallery cols-4" data-folder="assets/dokumentasi/proyek-pos-android" data-count="4"
-                 data-title="Aplikasi POS Android"
-                 data-captions="Buka Shift Kasir &amp; Modal Kas Awal di Laci|Operasional Tablet Kasir &amp; Tren Penjualan|Implementasi Sistem POS di Meja Kasir|Uji Coba Lapangan &amp; Kepuasan Pengguna"></div>
-          </div>
-        </div>
-      </article>
-
-      <!-- Project 3 -->
-      <article class="project-card reveal reveal-delay-1">
-        <div class="project-thumb-area" data-cover="assets/dokumentasi/proyek-sia-yayasan-pkm" style="background:linear-gradient(135deg,#A7B6D0,#C8E8FF);">
-          <div class="text-center">
-            <div class="text-5xl mb-2">🏫</div>
-            <p class="font-outfit font-black text-sm" style="color:#0F1E3A;" data-i18n="screenshotPending">Screenshot Menyusul</p>
-          </div>
-          <div class="absolute top-3 left-3 z-10">
-            <span class="neo-tag neo-tag-navy" data-i18n="proj3Badge">PKM-PM POLNES</span>
-          </div>
-        </div>
-        <div class="p-6">
-          <p class="font-outfit font-black text-xs uppercase tracking-wider mb-1" style="color:#0F1E3A;">2026</p>
-          <h3 class="font-outfit font-black text-xl mb-1" data-i18n="proj3Title">Sistem Informasi Akademik &amp; Website Yayasan</h3>
-          <p class="font-semibold text-sm mb-3" style="color:#7A7060;" data-i18n="proj3Subtitle">Yayasan At-Tarbiyyah Wijaya Kusuma</p>
-          <p class="text-sm font-semibold leading-relaxed mb-4" style="color:#4A4A4A;" data-i18n="proj3Desc">
-            Digitalisasi administrasi akademik yayasan - PPDB Online, Portal Admin, Portal Siswa, serta manajemen halaman Profil, Berita, dan Galeri yang terintegrasi.
-          </p>
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="neo-tag">HTML5</span>
-            <span class="neo-tag">Tailwind CSS</span>
-            <span class="neo-tag">JavaScript</span>
-            <span class="neo-tag">Supabase</span>
-          </div>
-          <p class="text-xs font-bold mb-4" style="color:#A7B6D0;" data-i18n="proj3Role">Tim Pengembang Sistem - Program PKM-PM</p>
-          <div class="mb-4">
-            <a href="https://siyayasan.vercel.app/index.html" target="_blank" rel="noopener"
-               class="inline-flex items-center gap-1.5 font-outfit font-black text-xs px-4 py-2 rounded-lg btn-press"
-               style="background:#D4FF4F; border:2px solid #0D0D0D; box-shadow:3px 3px 0 #0D0D0D; color:#0D0D0D;"
-               data-i18n="proj3LiveDemo">
-              Kunjungi Website (Live Demo) →
-            </a>
-          </div>
-          <div class="doc-gallery-wrap">
-            <div class="doc-gallery-head">
-              <p class="font-outfit font-black text-xs uppercase tracking-wider" style="color:#0F1E3A;" data-i18n="docGalleryLabel">📸 Dokumentasi</p>
-            </div>
-            <div class="doc-gallery" data-folder="assets/dokumentasi/proyek-sia-yayasan-pkm" data-count="3"
-                 data-title="SI Akademik Yayasan At-Tarbiyyah Wijaya Kusuma"
-                 data-captions="Tampilan Beranda Website Resmi Yayasan di Smart TV|Sosialisasi &amp; Pemaparan Sistem oleh Neli Agustina|Foto Bersama Tim PKM POLNES &amp; Keluarga Besar Yayasan"></div>
-          </div>
-        </div>
-      </article>
-
-      <!-- Project 4 -->
-      <article class="project-card reveal reveal-delay-2">
-        <div class="project-thumb-area" data-cover="assets/dokumentasi/proyek-sistem-informasi-logistik" style="background:linear-gradient(135deg,#D4FF4F,#FFE566);">
-          <div class="text-center">
-            <div class="text-5xl mb-2">📦</div>
-            <p class="font-outfit font-black text-sm" style="color:#4A4A4A;" data-i18n="screenshotPending">Screenshot Menyusul</p>
-          </div>
-          <div class="absolute top-3 left-3 z-10">
-            <span class="neo-tag neo-tag-lime" data-i18n="proj4Badge">Freelance</span>
-          </div>
-        </div>
-        <div class="p-6">
-          <p class="font-outfit font-black text-xs uppercase tracking-wider mb-1" style="color:#0F1E3A;" data-i18n="proj4Year">2026 · Aplikasi Offline</p>
-          <h3 class="font-outfit font-black text-xl mb-1" data-i18n="proj4Title">Sistem Informasi Logistik</h3>
-          <p class="font-semibold text-sm mb-3" style="color:#7A7060;" data-i18n="proj4Subtitle">Aplikasi Manajemen Arus Barang &amp; Kas Usaha</p>
-          <p class="text-sm font-semibold leading-relaxed mb-4" style="color:#4A4A4A;" data-i18n="proj4Desc">
-            Aplikasi offline user-friendly untuk mengatur alur keluar masuk barang, menghasilkan laporan arus barang dan arus kas di lingkungan usaha, dengan fokus pengelolaan persediaan menggunakan metode rata-rata (Average Method).
-          </p>
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="neo-tag" data-i18n="proj4TagOffline">Aplikasi Offline</span>
-            <span class="neo-tag" data-i18n="proj4TagAverage">Metode Rata-Rata</span>
-            <span class="neo-tag" data-i18n="proj4TagCashFlow">Arus Kas</span>
-            <span class="neo-tag">User-Friendly</span>
-          </div>
-          <p class="text-xs font-bold" style="color:#A7B6D0;" data-i18n="proj4Role">Freelance Developer &amp; System Designer</p>
-          <div class="doc-gallery-wrap">
-            <div class="doc-gallery-head">
-              <p class="font-outfit font-black text-xs uppercase tracking-wider" style="color:#0F1E3A;" data-i18n="docGalleryLabel">📸 Dokumentasi</p>
-            </div>
-            <div class="doc-gallery cols-4" data-folder="assets/dokumentasi/proyek-sistem-informasi-logistik" data-count="4"
-                 data-title="Sistem Informasi Logistik"
-                 data-captions="Dashboard Desktop: Input Barang Masuk &amp; Keluar|Modul Pengaturan: Sinkronisasi Multi-Device &amp; Impor CSV|Tampilan Smartphone: Dashboard Mutasi Barang Risgold|Tampilan Smartphone: Pengaturan Sistem &amp; Backup JSON"></div>
-          </div>
-        </div>
-      </article>
-
     </div>
   </div>
 </section>
@@ -1820,23 +1556,6 @@
         }
       });
     }
-  });
-
-  // Cover / thumbnail proyek: assets/dokumentasi/<folder>/cover.jpg
-  document.querySelectorAll('[data-cover]').forEach(area => {
-    loadFirst(`${area.dataset.cover}/cover`, src => {
-      if (!src) return;
-      const placeholder = area.querySelector('.text-center');
-      if (placeholder) placeholder.style.display = 'none';
-      const img = document.createElement('img');
-      img.className = 'cover-img cursor-pointer';
-      img.src = src;
-      img.alt = 'Cover proyek';
-      img.title = 'Klik untuk memperbesar gambar sampul';
-      const cardTitle = area.closest('article')?.querySelector('h3')?.textContent || 'Sampul Proyek';
-      img.onclick = () => openLightbox(src, `Sampul: ${cardTitle}`);
-      area.insertBefore(img, area.firstChild);
-    });
   });
 
   // ── CONTACT FORM ───────────────────────────────
